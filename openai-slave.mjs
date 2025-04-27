@@ -81,7 +81,7 @@ async function fetchReport(data) {
 	try {
 		const url = 'https://hard-moonlightthu-9878.cocert56.workers.dev/api/message'; // Ensure this is correct
 
-		apiMessage.innerText = 'Asking the AI guru...'; // Update status
+		apiMessage.innerText = 'Asking the AI gu2ru...'; // Update status
 
 		const response = await fetch(url, {
 			method: 'POST',
