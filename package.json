@@ -1,9 +1,6 @@
 {
     "dependencies": {
       "openai": "^4.96.0"
-    },
-    "scripts": {
-      "build": "npm run build"
     }
   }
   
