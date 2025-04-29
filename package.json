@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "openai": "^4.96.0"
-  },
-  "scripts": {
-    "build": "echo 'No build step required'"
-  }
-}
