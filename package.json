@@ -3,7 +3,7 @@
       "openai": "^4.96.0"
     },
     "scripts": {
-      "build": "mkdir -p dist && cp public/index.html dist/ && cp style.css dist/ && cp openai-slave.mjs dist/ && cp re.mjs dist/"
+      "build": "npm run build"
     }
   }
   
