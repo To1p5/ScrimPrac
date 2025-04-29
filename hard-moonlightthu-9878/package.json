@@ -7,7 +7,7 @@
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
-		"build": "mkdir -p dist && echo 'No build step required'"
+		"build": "mkdir -p dist && cp public/index.html dist/ && cp style.css dist/ && cp openai-slave.mjs dist/ && cp re.mjs dist/"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.7.5",
