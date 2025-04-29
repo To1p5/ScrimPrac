@@ -12,7 +12,7 @@
     },
     "scripts": {
       
-      "build": "mkdir -p dist && cp Scrimba3/index.html dist/ && cp Scrimba3/style.css && cp Scrimba3/openai-slave.mjs dist/ && cp hard-moonlightthu-9878/re.mjs dist/"
+      "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp openai-slave.mjs dist/ && cp hard-moonlightthu-9878/re.mjs dist/"
       
     }
   }
