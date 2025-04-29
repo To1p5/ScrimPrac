@@ -1,6 +1,18 @@
 {
+    "name": "scrimba3-root", 
+    "version": "1.0.0",    
+    "private": true,       
     "dependencies": {
       "openai": "^4.96.0"
+    },
+    "devDependencies": { 
+      "@cloudflare/vitest-pool-workers": "^0.7.5",
+      "vitest": "~3.0.7",
+      "wrangler": "^4.13.0"
+    },
+    "scripts": {
+      
+      "build": "mkdir -p dist && cp hard-moonlightthu-9878/public/index.html dist/ && cp hard-moonlightthu-9878/style.css dist/ && cp hard-moonlightthu-9878/openai-slave.mjs dist/ && cp hard-moonlightthu-9878/re.mjs dist/"
+      
     }
   }
-  
