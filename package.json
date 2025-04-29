@@ -12,7 +12,7 @@
     },
     "scripts": {
       
-      "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp openai-slave.mjs dist/ && cp hard-moonlightthu-9878/src/index.js dist/ && cp dates.mjs dist/"
+      "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp openai-slave.mjs dist/ && cp hard-moonlightthu-9878/src/index.js dist/ && cp dates.mjs dist/ && cp images dist/"
       
     }
   }
